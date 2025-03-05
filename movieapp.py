@@ -141,7 +141,7 @@ def recommend_similar_movies(movie_title):
     recommendations["plot"] = recommendations["id"].apply(fetch_movie_plot)
 
     return recommendations
-
+#test
 # Streamlit UI
 st.title("❤️‍🔥 If you liked _____, try these!")
 
