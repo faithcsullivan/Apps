@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import pandas as pd
-import scikit
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import time
