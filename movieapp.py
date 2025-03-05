@@ -166,4 +166,4 @@ if st.button("Get Recommendations"):
                 st.write(f"📝 *{row['plot']}*")  
                 st.markdown("---")
     else:
-        st.warning("No similar movies found.")
+        st.warning("No similar movies found. Try another title.")
